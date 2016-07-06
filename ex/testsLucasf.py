@@ -1,7 +1,7 @@
 import unittest
-from saulo import *
+from lucasf import *
 
-class TestSaulo(unittest.TestCase):
+class TestLucasf(unittest.TestCase):
     def test_SayHi(self):
         self.assertEqual('hi', hi())
 

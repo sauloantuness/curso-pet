@@ -1,7 +1,7 @@
 import unittest
-from saulo import *
+from coimbra import *
 
-class TestSaulo(unittest.TestCase):
+class TestCoimbra(unittest.TestCase):
     def test_SayHi(self):
         self.assertEqual('hi', hi())
 

@@ -7,7 +7,8 @@ users = [
 		'pedrof',
 		'lucasf',
 		'higorf',
-		'yuri'
+		'yuri',
+		'luis'
 ]
 
 f = open('testsSaulo.py')

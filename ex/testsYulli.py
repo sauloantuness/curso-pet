@@ -1,7 +1,7 @@
 import unittest
-from saulo import *
+from yulli import *
 
-class TestSaulo(unittest.TestCase):
+class TestYulli(unittest.TestCase):
     def test_SayHi(self):
         self.assertEqual('hi', hi())
 
