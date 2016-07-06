@@ -7,3 +7,8 @@ def fatorial(n):
 		return n*fatorial(n-1)
 def hi():
 	return 'hi'
+def ehPar(n):
+	if(n%2 == 0):
+		return True
+	else:
+		return False
