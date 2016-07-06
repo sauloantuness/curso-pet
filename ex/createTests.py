@@ -1,4 +1,14 @@
-users = ['gabi', 'joao', 'marcos']
+users = [
+		'yulli',
+		'lucasc',
+		'gabriela',
+		'pedroh',
+		'coimbra',
+		'pedrof',
+		'lucasf',
+		'higorf',
+		'yuri'
+]
 
 f = open('testsSaulo.py')
 t = f.read()
