@@ -13,3 +13,9 @@ def ehPar (num):
         return 1
     else:
         return 0
+
+def divideString (string):
+
+    s1 , s2, s3 = string.split(' ')
+    l=[s1,s2,s3]
+    return l
