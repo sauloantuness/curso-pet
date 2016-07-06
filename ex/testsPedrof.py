@@ -15,6 +15,10 @@ class TestPedrof(unittest.TestCase):
         self.assertEqual(True, ehPar(1000))
         self.assertEqual(False, ehPar(1))
 
+    def test_lista(self):
+        self.assertEqual(['um', 'dois', 'tres'], divideString("um dois tres"))
+
+
 
 if __name__ == '__main__':
     unittest.main()
