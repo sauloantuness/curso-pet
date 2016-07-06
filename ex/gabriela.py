@@ -11,3 +11,6 @@ def ehPar(n):
     if n%2 == 0:
         return True
     return False
+
+def divideString(s):
+    return(s.split(" "))
