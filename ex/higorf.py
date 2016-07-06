@@ -12,3 +12,8 @@ def ehPar(num):
     if num % 2 == 0 :
         return True
     return False
+
+def divideString(string):
+    l = []
+    l.append(string.split(' '))
+    return l[0]
