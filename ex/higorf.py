@@ -2,10 +2,13 @@ def hi():
     return 'hi'
 
 def fatorial(num):
-    i = num - 1
-    while i > 0:
-        num *= i
-        i-=1
-    return num
+    i = 1
+    while num > 0:
+        i *= num
+        num-=1
+    return i
 
-print(fatorial(0))
+def ehPar(num):
+    if num % 2 == 0 :
+        return True
+    return False
