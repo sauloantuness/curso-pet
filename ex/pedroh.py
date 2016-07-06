@@ -16,6 +16,9 @@ def ehPar(num):
     else:
         return False
 
+def divideString(st):
+    return st.split(" ")
+
 if __name__ == "__main__":
     num = int(input())
     print(fatorial(num))
