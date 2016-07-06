@@ -12,3 +12,8 @@ def ehPar(n):
 		return True
 	else:
 		return False
+def divideString(chave):
+	lista = []
+	for palavra in chave.split(' '):
+		lista.append(palavra)	
+	return lista
