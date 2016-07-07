@@ -20,7 +20,7 @@ def divideString(string):
     
 def inverso(num):
 	return int(str(num)[::-1])
-
+#**************************************************
 def novoDict(nome,matricula,ehMulher):
 	l={}
 	l['nome'] = nome
@@ -50,3 +50,17 @@ def getAulas(d4):
 	if d4.get('aulas',None) != None:
 		return d4['aulas']
 	return []
+#*********************************************************
+def transforma(lista,exp=2):
+	i = 0
+	for ele in lista:
+		if exp == 2: 
+			lista[i] = ele ** exp 
+			i+=1
+		else:
+			lista[i] = exp(ele)
+			i+=1
+	return lista
+#***********************************************************
+
+
