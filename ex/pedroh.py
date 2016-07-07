@@ -60,6 +60,15 @@ def getAulas(d4):
     else:
         return []
 
+def quadrado(n):
+    return n*n
+
+def transforma(listNumbers, func = quadrado ):
+    newList = []
+    for num in listNumbers:
+        newList.append(func(num))
+    return newList
+
 if __name__ == "__main__":
     num = int(input())
     print(test_inverso(num))
