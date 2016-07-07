@@ -29,4 +29,10 @@ alunos = [
         'email': 'higorflopes@gmail.com',
         'telefone': '31-99750-1263'
     },
+    {
+        'nome':'Lucas Nascimento Huati Corrêa',
+        'matricula': 201322040400,
+        'email': 'lucashuati@hotmail.com',
+        'telefone': '31-98989-2217'
+    }
 ]
