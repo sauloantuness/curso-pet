@@ -26,6 +26,40 @@ def inverso(intInput):
         strNova += strString[i]
     return int(strNova)
 
+def novoDict(strString,intNum,boolBo):
+    return {
+        'nome': strString,
+        'matricula': intNum,
+        'ehMulher': boolBo
+    }
+
+def getNome(d1):
+    return d1['nome']
+
+def setNome(d1, newName):
+    d1['nome'] = newName
+    return d1
+
+def setAulas(d2, listAulas):
+    d2['aulas'] = []
+    for aula in listAulas:
+        d2['aulas'].append(aula)
+    return d2
+
+def insereAula(d3, newAula):
+    if d3.get('aulas'):
+        d3['aulas'].append(newAula)
+    else:
+        listAulas = [newAula]
+        setAulas(d3,listAulas)
+    return d3
+
+def getAulas(d4):
+    if d4.get('aulas'):
+        return d4['aulas']
+    else:
+        return []
+
 if __name__ == "__main__":
     num = int(input())
     print(test_inverso(num))
