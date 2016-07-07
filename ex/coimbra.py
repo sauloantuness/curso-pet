@@ -17,3 +17,14 @@ def divideString(chave):
 	for palavra in chave.split(' '):
 		lista.append(palavra)	
 	return lista
+
+def inverso(chave):
+	lista = []
+	chave2 = ""
+	chave_aux = str(chave)
+	for letra in chave_aux:
+		lista.append(letra)
+	lista.reverse()
+	for letra in lista:
+		chave2 += letra
+	return int(chave2)
