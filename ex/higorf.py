@@ -28,4 +28,25 @@ def novoDict(nome,matricula,ehMulher):
 	l['ehMulher']=ehMulher
 	return l
 	
-print (novoDict('Higorf', 2014123456, False))
+def getNome(d1):
+	return d1['nome']
+
+def setNome(d1,nome):
+	d1['nome'] = nome
+	return d1
+	
+def setAulas(d2, l):
+	d2['aulas'] = l
+	return d2
+
+def insereAula(d3,aula):
+	if d3.get('aulas',None) == None :
+		d3['aulas'] = [aula]
+	else :
+		d3['aulas'].append(aula)
+	return d3
+	
+def getAulas(d4):
+	if d4.get('aulas',None) != None:
+		return d4['aulas']
+	return []
