@@ -14,8 +14,11 @@ def ehPar (num):
     else:
         return 0
 
-def divideString (string):
+def lista (string):
 
     s1 , s2, s3 = string.split(' ')
     l=[s1,s2,s3]
     return l
+
+def inverso (numero):
+    return int(str(numero)[::-1])
