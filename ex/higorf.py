@@ -63,4 +63,17 @@ def transforma(lista,exp=2):
 	return lista
 #***********************************************************
 
+class Empregado:
 
+	def __init__(self,nome,salario=700.00):
+		if nome == '':
+			raise Exception
+		self.nome = nome
+		self.__salario = salario
+	
+	def getSalario(self):
+		return self.__salario
+		
+	def setSalario(self,salario):
+		self.__salario = salario
+	
