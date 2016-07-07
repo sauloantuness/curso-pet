@@ -1,4 +1,5 @@
 import unittest
+import pdb
 from lucasf import *
 
 class TestLucasf(unittest.TestCase):

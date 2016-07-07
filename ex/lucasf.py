@@ -22,3 +22,41 @@ def divideString (string):
 
 def inverso (numero):
     return int(str(numero)[::-1])
+
+def novoDict(gnome,gmatricula,gehMulher):
+    aux={
+        "nome": gnome,
+        "matricula" :gmatricula,
+        "ehMulher" : gehMulher
+    }
+    return aux
+
+def getNome(dicts):
+    return dicts['nome']
+
+def setNome(dicts,gnome):
+    dicts['nome']=gnome
+    return dicts
+
+def setAulas(dicts,gaulas):
+    aux={
+        "nome": dicts['nome'],
+        "matricula" :dicts['matricula'],
+        "ehMulher" : dicts['ehMulher'],
+        "aulas" : gaulas
+
+    }
+    return aux
+
+def insereAula(dicts,naula):
+    if dicts.get("aulas"):
+        dicts["aulas"].append(naula)
+    else:
+        dicts["aulas"]=[naula]
+    return dicts
+
+def getAulas(dicts):
+    if dicts.get("aulas"):
+        return dicts["aulas"]
+    else:
+        return []
