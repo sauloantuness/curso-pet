@@ -17,3 +17,7 @@ def divideString(string):
     s1 , s2 , s3 = string.split(" ")
     lista = [s1,s2,s3]
     return lista
+
+def inverso(n):
+    return int(str(n)[::-1])
+    
