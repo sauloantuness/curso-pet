@@ -15,6 +15,12 @@ def ehPar(n):
         return True
     else:
         return False
-        
+
 def divideString(a):
     return a.split(' ')
+def inverso(n):
+    n = str(n)
+    p = ''
+    for i in range(len(n)-1,-1,-1):
+        p+= n[i]
+    return int(p)
