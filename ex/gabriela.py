@@ -67,6 +67,8 @@ def transforma(l,cubo=False):
 
 class Empregado:
     def __init__(self, nome,salario=700.00):
+        if not nome:
+            raise Exception
         self.nome = nome
         self.__salario = salario
 
