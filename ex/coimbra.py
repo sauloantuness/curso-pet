@@ -72,3 +72,12 @@ def transforma(lista,funcao=quadrado):
 	for i in range(0,len(lista)):
 		lista[i] = funcao(lista[i])
 	return lista
+
+class Empregado:
+	def __init__(self,nome,salario=700):
+		self.__salario = salario
+		self.nome = nome
+	def getSalario(self):
+		return self.__salario
+	def setSalario(self,num):
+		self.__salario = num
