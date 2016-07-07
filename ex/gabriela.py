@@ -14,3 +14,7 @@ def ehPar(n):
 
 def divideString(s):
     return(s.split(" "))
+
+def inverso(n):
+    s = str(n)
+    return int(s[::-1])
