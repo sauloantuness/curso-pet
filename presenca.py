@@ -11,4 +11,10 @@ alunos = [
         'email': 'higor1308@gmail.com',
         'telefone': '31-97570-7867'
     },
+    {
+        'nome': 'Pedro Henrique Lopes de Castro',
+        'matricula': 201522040099,
+        'email': 'pedrohlcastro@gmail.com',
+        'telefone': '31-99808-9860'
+    },
 ]
