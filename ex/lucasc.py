@@ -63,3 +63,13 @@ def getAulas(dictonary):
     if not(dictonary.get('aulas')):
         return []
     return dictonary['aulas']
+
+def quad(n):
+    return n*n
+
+def transforma(lista,func=quad):
+    result = []
+    for i in lista:
+        result.append(func(i))
+        
+    return result
