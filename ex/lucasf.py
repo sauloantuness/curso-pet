@@ -14,7 +14,7 @@ def ehPar (num):
     else:
         return 0
 
-def lista (string):
+def divideString (string):
 
     s1 , s2, s3 = string.split(' ')
     l=[s1,s2,s3]
