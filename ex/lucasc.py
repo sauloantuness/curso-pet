@@ -71,5 +71,21 @@ def transforma(lista,func=quad):
     result = []
     for i in lista:
         result.append(func(i))
-        
+
     return result
+
+class Empregado():
+    def __init__(self,nome,sal=700.00):
+        try:
+            if nome == '':
+                raise Exception
+            else:
+                self.nome = nome
+                self.__salario = sal
+        except Exception:
+            raise
+
+    def getSalario(self):
+        return self.__salario
+    def setSalario(self,sal):
+        self.__salario = sal
