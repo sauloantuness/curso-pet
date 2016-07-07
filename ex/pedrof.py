@@ -20,4 +20,33 @@ def divideString(string):
 
 def inverso(n):
     return int(str(n)[::-1])
-    
+
+def novoDict(nome, matricula, ehMulher):
+    d = {}
+    d["nome"] = nome
+    d["matricula"] = matricula
+    d["ehMulher"] = ehMulher
+    return d
+
+def getNome(d):
+    return d.get("nome")
+
+def setNome(d, nome):
+    d["nome"] = nome
+    return d
+
+def setAulas(d, aulas):
+    d["aulas"] = aulas
+    return d
+
+def insereAula(d, aula):
+    if d.get("aulas"):
+        d["aulas"].append(aula)
+    else:
+        d["aulas"] = [aula]
+    return d
+
+def getAulas(d):
+    if d.get("aulas"):
+        return d.get("aulas")
+    return []
