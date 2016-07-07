@@ -69,6 +69,31 @@ def transforma(listNumbers, func = quadrado ):
         newList.append(func(num))
     return newList
 
+#e = Empregado('Pedroh')
+
+#self.assertEqual(700.00, e.getSalario())
+#self.assertTrue(hasattr(e, '_Empregado__salario'))
+
+#e = Empregado('Pedroh', 1000.00)
+
+#self.assertEqual(1000.00, e.getSalario())
+class Empregado():
+    def __init__(self,nome,salario = 700.00):
+        try:
+            self.__nome = nome;
+            self.__salario = salario
+            if nome == '':
+                raise Exception('noName')
+        except:
+            raise
+
+    def getSalario(self):
+        return self.__salario
+
+    def setSalario(self,salario):
+        self.__salario = salario
+
+
 if __name__ == "__main__":
     num = int(input())
     print(test_inverso(num))
