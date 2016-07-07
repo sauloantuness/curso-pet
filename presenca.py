@@ -6,6 +6,12 @@ alunos = [
         'telefone': '37-99807-0761'
     },
     {
+        'nome': 'Gabriela Ramalho Santos',
+        'matricula': 201412040256,
+        'email': 'gabrielaramalho96@gmail.com',
+        'telefone': '31-99305-7833'
+    },
+    {
         'nome': 'Higor Coimbra Amorim',
         'matricula': 201422040453,
         'email': 'higor1308@gmail.com',
@@ -23,5 +29,4 @@ alunos = [
         'email': 'higorflopes@gmail.com',
         'telefone': '31-99750-1263'
     },
-    
 ]
