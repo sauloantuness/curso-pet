@@ -54,3 +54,13 @@ def insereAula(d,aula):
 
 def getAulas(d):
     return d.get("aulas",[])
+
+def transforma(l,cubo=False):
+    novaLista = list()
+    if cubo == False:
+        for elemento in l:
+            novaLista.append(elemento**2)
+    else:
+        for elemento in l:
+            novaLista.append(cubo(elemento))
+    return novaLista
