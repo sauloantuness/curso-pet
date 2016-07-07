@@ -21,7 +21,7 @@ def divideString(a):
 
 def inverso(ent):
     string = str(ent)
-    size = string.__len__()
+    size = len(string)
     result = ""
     for i in range(size-1,-1,-1):
         result += string[i]
