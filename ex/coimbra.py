@@ -75,6 +75,8 @@ def transforma(lista,funcao=quadrado):
 
 class Empregado:
 	def __init__(self,nome,salario=700):
+		if not name:
+			raise Exception
 		self.__salario = salario
 		self.nome = nome
 	def getSalario(self):
