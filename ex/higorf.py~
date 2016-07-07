@@ -21,3 +21,4 @@ def divideString(string):
 def inverso(num):
 	return int(str(num)[::-1])
 
+print (inverso(321))
