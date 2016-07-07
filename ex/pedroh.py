@@ -19,7 +19,13 @@ def ehPar(num):
 def divideString(st):
     return st.split(" ")
 
+def inverso(intInput):
+    strString = str(intInput)
+    strNova = ""
+    for i in range(len(strString) -1 ,-1,-1):
+        strNova += strString[i]
+    return int(strNova)
+
 if __name__ == "__main__":
     num = int(input())
-    print(fatorial(num))
-    print(ehPar(num))
+    print(test_inverso(num))
