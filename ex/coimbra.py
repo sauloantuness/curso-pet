@@ -64,3 +64,11 @@ def getAulas(d):
 		return d['aulas']
 	else:
 		return []
+
+def quadrado(n):
+	return n*n
+
+def transforma(lista,funcao=quadrado):
+	for i in range(0,len(lista)):
+		lista[i] = funcao(lista[i])
+	return lista
