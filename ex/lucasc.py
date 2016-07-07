@@ -18,3 +18,11 @@ def ehPar(n):
 def divideString(a):
     b = a.split(" ")
     return b
+
+def inverso(ent):
+    string = str(ent)
+    size = string.__len__()
+    result = ""
+    for i in range(size-1,-1,-1):
+        result += string[i]
+    return int(result)

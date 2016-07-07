@@ -67,7 +67,7 @@ class TestLucasc(unittest.TestCase):
             'ehMulher': False,
             'aulas': ['Fisica', 'Calculo', 'GAAV']
         }
-        
+
         self.assertEqual(novod3, insereAula(d3, 'GAAV'))
 
         d4 = {
