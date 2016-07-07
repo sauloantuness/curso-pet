@@ -6,7 +6,7 @@ alunos = [
         'telefone': '37-99807-0761'
     },
     {
-        'nome': 'Higor',
+        'nome': 'Higor Fischer de Paula Lopes',
         'matricula': 201512040410,
         'email': 'higorflopes@gmail.com',
         'telefone': '31-99750-1263'
