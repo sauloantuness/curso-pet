@@ -64,3 +64,14 @@ def transforma(l,cubo=False):
         for elemento in l:
             novaLista.append(cubo(elemento))
     return novaLista
+
+class Empregado:
+    def __init__(self, nome,salario=700.00):
+        self.nome = nome
+        self.__salario = salario
+
+    def getSalario(self):
+        return self.__salario
+
+    def setSalario(self,salario):
+        self.__salario = salario
